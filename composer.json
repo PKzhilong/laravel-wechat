@@ -10,6 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "overtrue/wechat": "~3.1",
         "simplesoftwareio/simple-qrcode": "^1.5"
     },
     "autoload": {
