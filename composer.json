@@ -1,0 +1,21 @@
+{
+    "name": "xingzhilong/laravel-wechatpay",
+    "description": "this is package which is base on wechat",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xingzhilong",
+            "email": "339191949@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "simplesoftwareio/simple-qrcode": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Laravel\\WeChatPay\\": "src/"
+        }
+    }
+}
