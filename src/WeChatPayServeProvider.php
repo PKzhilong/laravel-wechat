@@ -14,7 +14,9 @@ class WeChatPayServeProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__ . '/config/wechat_pay.php' =>  config('wechat_pay.php'),
+        ]);
     }
 
     /**
